@@ -105,13 +105,3 @@ export const sortBy = sortType => ({
     cars: sortCars(sortType),
   },
 });
-
-export const orderBy = orderType => ({
-  type: 'ORDER_BY',
-  orderType,
-});
-
-export const clearFilter = () => ({
-  type: 'CLEAR_FILTER',
-
-});

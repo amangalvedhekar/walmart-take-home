@@ -5,7 +5,6 @@ const initialState = {
   error: null,
   filters: {
     sortType: '',
-    orderType: '',
   },
 };
 

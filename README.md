@@ -6,3 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 is installed globally `npm i -g nodemon concurrently`
 * Alternatively `npm i` can be run from the root of the project
 * To start the application run `npm run dev` from root of the project
+
+# Deployed App
+* If for any reason the app fails to run locally please view [here](https://walmart-take-home.herokuapp.com/)
+* The app is deployed on heroku along with `redux dev tools extension` to have
+a visual look at the `redux store`
+
+# App structure
+* Client folder holds all the code related to `react, redux, css`
+* `server.js` serves endpoint `/cars`,  `/availability` which uses `express`
