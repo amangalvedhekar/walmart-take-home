@@ -1,5 +1,11 @@
 import React, {Component} from 'react';
-import {Card, CardBody, CardHeader, CardFooter, ImageHeader} from '../../components/Card';
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  CardFooter,
+  ImageHeader
+} from '../../components/Card';
 import Button from '../Button/Button';
 
 class CarLists extends Component {
@@ -25,8 +31,8 @@ class CarLists extends Component {
     return null;
   }
 
-  renderAvailability (carId) {
-    if(this.props.carAvailability[carId]) {
+  renderAvailability(carId) {
+    if (this.props.carAvailability[carId]) {
       return (
         <p>
           <span className='bold'>Availability</span>
@@ -63,10 +69,6 @@ class CarLists extends Component {
                   {car.model}
                 </p>
                 <div>{this.renderAvailability(car.id)}</div>
-                <p>
-                  <span className='bold'>Year</span>
-                  {car.year}
-                </p>
               </CardBody>
               <CardFooter>
                 <div>{this.renderBuyButton(car.id)}</div>

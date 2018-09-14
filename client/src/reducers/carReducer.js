@@ -8,7 +8,7 @@ const initialState = {
   },
 };
 
-export default function tasks(state = initialState, action) {
+const carReducer =(state = initialState, action)  =>{
   switch (action.type) {
     case 'CAR_LIST_REQUESTED':
       return {
@@ -51,3 +51,5 @@ export default function tasks(state = initialState, action) {
     }
   }
 }
+
+export default carReducer;
