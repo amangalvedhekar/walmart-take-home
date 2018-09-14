@@ -20,4 +20,31 @@ a visual look at the `redux store`
 * Simple card used for rendering car details - [codepen](https://codepen.io/amangalvedhekar/pen/oPqZmM)
 * Grid Layout using grid templates - [codepen](https://codepen.io/amangalvedhekar/pen/aaYmRE)
 
+# Scalable web application
+* Cloud Storage
+    * cloud storage makes it easy to scale and provides greater security
+    * Initial investment is relatively low
+    * cloud databases (heroku with postgres, google cloud) options helps to meet project requirement
+* Caches
+    * caching data helps in reducing the hits to server which in turn reduces traffic and also provides 
+    data to user in quick span.
+    * spreading cache geographically would help in less hops to return data to user
+* Load Balancing
+    * load balancing comes in handy for horizontal scaling. 
+    * ensures that the traffic is spread across the nodes rather than sending all hits to
+    single machine
+* Proxy
+    * proxies also come in handy for horizontal scaling
+    * the hits on the server is reduces as proxies can cache the result and return the data
+    back rather than making a hit on server
+    
+* Micro services
+  * >[independent deployable services](https://martinfowler.com/articles/microservices.html)
+  * reduces the stress of monolithic architecture
+* API Gateway
+  * single point of entry for clients to communicate with the backend
+  * reduces the hop for request to complete
+  * can route request to multiple node to get quicker response
+  * Diagram
+  ![diagram](https://github.com/amangalvedhekar/walmart-take-home/blob/master/scalable-web-app.png)
 
