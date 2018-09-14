@@ -52,7 +52,7 @@ class CarLists extends Component {
           return (
             <Card key={index}>
               <CardHeader><p>{car.name}</p></CardHeader>
-              <ImageHeader imageUrl={car.img}/>
+              <ImageHeader imageUrl={car.img} alt={car.name}/>
               <CardBody>
                 <p>
                   <span className='bold'>Make</span>

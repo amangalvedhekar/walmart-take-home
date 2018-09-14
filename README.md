@@ -15,3 +15,9 @@ a visual look at the `redux store`
 # App structure
 * Client folder holds all the code related to `react, redux, css`
 * `server.js` serves endpoint `/cars`,  `/availability` which uses `express`
+
+# Design
+* Simple card used for rendering car details - [codepen](https://codepen.io/amangalvedhekar/pen/oPqZmM)
+* Grid Layout using grid templates - [codepen](https://codepen.io/amangalvedhekar/pen/aaYmRE)
+
+
